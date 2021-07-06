@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "ThuatToanATTT_7d32d9fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TinhNgTo",
+            "request": "launch",
+            "mainClass": "src.TinhNgTo",
+            "projectName": "ThuatToanATTT_7d32d9fd"
+        },
+        {
+            "type": "java",
             "name": "Launch TinhNgTo",
             "request": "launch",
             "mainClass": "TinhNgTo",

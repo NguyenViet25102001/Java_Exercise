@@ -1,3 +1,4 @@
+package src;
 
 import java.util.Scanner;
 
@@ -11,8 +12,8 @@ public class TinhNgTo {
         long b = 2;
         int d = 0;
 
-        System.out.print("%\n");
-        System.out.print("|% 20a|% 20b|% 20d|\n");
+        System.out.print("----------------------------------------------------------------\n");
+        System.out.printf("|                   a|                   b|                   d|\n");
 
         for (int i = 1; i <= n; i++) {
 
@@ -24,13 +25,13 @@ public class TinhNgTo {
             d = GCD(c, n);
 
             if (d <= 1) {
-                System.out.print("%-60s\n");
-                System.out.printf("|          %d|%-20d|%-20d|\n", a, b, d);
+                System.out.print("----------------------------------------------------------------\n");
+                System.out.printf("|%20d|%20d|%20d|\n", a, b, d);
 
             } else {
-                System.out.print("------------------------------------------------------------\n");
-                System.out.printf(String.format("|          %d|%-20d|%-20d|\n", a, b, d));
-                System.out.print("------------------------------------------------------------\n");
+                System.out.print("----------------------------------------------------------------\n");
+                System.out.printf("|%20d|%20d|%20d|\n", a, b, d);
+                System.out.print("----------------------------------------------------------------\n");
                 System.out.printf("Thua so khong tam thuong cua %d la %d", n, d);
                 break;
             }
