@@ -1,0 +1,137 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TinhNgTo",
+            "request": "launch",
+            "mainClass": "TinhNgTo",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch SangPD",
+            "request": "launch",
+            "mainClass": "SangPD",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1",
+            "request": "launch",
+            "mainClass": "Bai1",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2",
+            "request": "launch",
+            "mainClass": "Bai2",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3",
+            "request": "launch",
+            "mainClass": "Bai3",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4",
+            "request": "launch",
+            "mainClass": "Bai4",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai5",
+            "request": "launch",
+            "mainClass": "Bai5",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai52",
+            "request": "launch",
+            "mainClass": "Bai52",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai6",
+            "request": "launch",
+            "mainClass": "Bai6",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai7",
+            "request": "launch",
+            "mainClass": "Bai7",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai8",
+            "request": "launch",
+            "mainClass": "Bai8",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "ThuatToanATTT_bbf42f06"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdditionInFp",
+            "request": "launch",
+            "mainClass": "AdditionInFp"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiprecisionSubtraction",
+            "request": "launch",
+            "mainClass": "MultiprecisionSubtraction"
+        }
+    ]
+}
